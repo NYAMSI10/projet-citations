@@ -12,5 +12,5 @@ function citationAleatoire() {
   return citations[index];
 }
 
-// Export du module
+// Export du module ok
 module.exports = citationAleatoire;
