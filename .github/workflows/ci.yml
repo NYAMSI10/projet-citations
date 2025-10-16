@@ -38,10 +38,9 @@ jobs:
         run: |
           echo "<!DOCTYPE html>" > index.html
           echo "<html lang='fr'>" >> index.html
-          echo "<head><meta charset='UTF-8'><title>TP Node.js CI/CD</title></head>" >> index.html
+          echo "<head><meta charset='UTF-8'><title>Devoir Node.js</title></head>" >> index.html
           echo "<body>" >> index.html
-          echo "<h1>Devoir Node.js CI/CD</h1>" >> index.html
-          echo "<p> Le succès est la somme de petits efforts répétés jour après jour</p>" >> index.html
+          echo "<h1> Le succès est la somme de petits efforts répétés jour après jour</h1>" >> index.html
           echo "</body></html>" >> index.html
 
       - name: Deploy to GitHub Pages
